@@ -17,4 +17,3 @@ deploy: build
 
 clean:
 	rm -f $(BIN)
-

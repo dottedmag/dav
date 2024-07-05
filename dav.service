@@ -1,0 +1,10 @@
+[Unit]
+Description=WebDAV server for OF
+StartLimitIntervalSec=0
+
+[Service]
+WorkingDirectory=/srv/www/dav.dottedmag.net/htdocs
+ExecStart=/home/dottedmag/dav/dav -root-dir /srv/www/dav.dottedmag.net/htdocs
+
+[Install]
+WantedBy=default.service
